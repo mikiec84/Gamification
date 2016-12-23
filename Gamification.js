@@ -74,6 +74,21 @@ define(["jquery", "text!./Gamification.css"], function($, cssContent) {'use stri
 									}, {
 										value: "Athletics",
 										label: "Athletics"
+									}, {
+										value: "Custom1",
+										label: "Custom1"
+									}, {
+										value: "Custom2",
+										label: "Custom2"
+									}, {
+										value: "Custom3",
+										label: "Custom3"
+									}, {
+										value: "Custom4",
+										label: "Custom4"
+									}, {
+										value: "Custom5",
+										label: "Custom5"
 									}	
 									],
 								  defaultValue: "Horses"								  

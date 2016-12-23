@@ -22,4 +22,4 @@ Allows to customize the speed, associate specific persons to the horses and much
 
 ![alt tag](https://github.com/iviasensio/Gamification/blob/master/MotorQlik.gif)
 
-![alt tag](https://github.com/iviasensio/Gamification/blob/master/AthleticsQlik.gif)
+![alt tag](https://github.com/iviasensio/Gamification/blob/master/Athletics.gif)

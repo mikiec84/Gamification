@@ -1,0 +1,9 @@
+{
+	"name" : "Gamification",
+	"description" : "Gamification animated chart",
+	"icon" : "extension",
+	"type" : "visualization",
+	"version": "1.0",
+	"preview" : "Gamification.jpg",
+	"author": "Ivan Felipe Asensio"
+}

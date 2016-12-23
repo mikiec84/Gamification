@@ -17,3 +17,5 @@ Allows to customize the speed, associate specific persons to the horses and much
 
 ### Open project
 . New ideas will be welcome
+
+![alt tag](https://github.com/iviasensio/Gamification/blob/master/HorsesQlik.gif)

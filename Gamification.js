@@ -313,7 +313,7 @@ define(["jquery", "text!./Gamification.css"], function($, cssContent) {'use stri
 				});
 				SecondSingle = SecondSingle.filter(onlyUnique)
 				
-				//ojo NO hay que ordenarla, hay que respetar el orden en que el usuario manda la 2ª dimensión
+				//ojo NO hay que ordenarla, hay que respetar el orden en que el usuario manda la 2Âª dimensiÃ³n
 				
 				var vSecondSingleLength = SecondSingle.length;
 				var vSecondDistance = 0;
@@ -394,6 +394,9 @@ define(["jquery", "text!./Gamification.css"], function($, cssContent) {'use stri
 			var vnDec = layout.qHyperCube.qMeasureInfo[0].qNumFormat.qnDec;
 			var vThou = layout.qHyperCube.qMeasureInfo[0].qNumFormat.qThou;
 			var vFmt  = layout.qHyperCube.qMeasureInfo[0].qNumFormat.qFmt;
+			if(!vFmt){
+				vFmt = '#.##0,00';
+			}
 			vFmt = vFmt.slice(-1);
 			
 			if (associate && vNumDimensions == 1) {
@@ -452,7 +455,7 @@ define(["jquery", "text!./Gamification.css"], function($, cssContent) {'use stri
 							maxFormat = formatNumber(PlayersMatrixGroup[aio][2],vnDec,3,vThou,vDec,vFmt); 
 							topgun = PlayersMatrixGroup[aio][0];
 						}
-						var indexClean = plyrs.indexOf(PlayersMatrixGroup[aio][0]);//OJO podría fallar si hay menos de 10
+						var indexClean = plyrs.indexOf(PlayersMatrixGroup[aio][0]);//OJO podrÃ­a fallar si hay menos de 10
 						if (indexClean >= 0) {
 							PlayersMatrix[indexClean][0] = PlayersMatrixGroup[aio][0];
 							PlayersMatrix[indexClean][1] = PlayersMatrixGroup[aio][1];
@@ -480,7 +483,7 @@ define(["jquery", "text!./Gamification.css"], function($, cssContent) {'use stri
 						}
 						PlayersMatrix[aio] = new Array(5);
 						PlayersMatrixTopGun[aio] = new Array(2);
-						//var indexClean = plyrs.indexOf(PlayersMatrixGroup[aio][0]);//OJO podría fallar si hay menos de 10
+						//var indexClean = plyrs.indexOf(PlayersMatrixGroup[aio][0]);//OJO podrÃ­a fallar si hay menos de 10
 						//if (indexClean >= 0) {
 							PlayersMatrix[aio][0] = PlayersMatrixGroup[aio][0];
 							PlayersMatrix[aio][1] = PlayersMatrixGroup[aio][1];
